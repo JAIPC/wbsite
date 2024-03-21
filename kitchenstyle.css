@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #dbdad5;
+}
+
+.container {
+    display: flex;
+      
+}
+
+
+.card {
+    background: transparent;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card-imagekitchen-1 {
+    background-image: url(kitchen1.png);
+    
+}
+
+.card-imagekitchen-2 {
+    background-image: url(kitchen2.png);
+}
+
+.card-imagekitchen-3 {
+    background-image: url(kitchen3.png);
+}
+.card-imagekitchen-4 {
+    background-image: url(kitchen4.png);
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
